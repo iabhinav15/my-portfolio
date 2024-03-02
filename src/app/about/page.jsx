@@ -41,13 +41,13 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">ABOUT</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Hello there, 👋 I am Abhinav Singh from Nalanda, Bihar, India. I am currently as a Computer Science undergrad at UIET, Panjab University.
-              I'm a passionate software engineer dedicated to crafting innovative solutions that push boundaries and drive impactful change.
+              Hello there, 👋 I am Abhinav Singh from Nalanda, Bihar, India. I am a Computer Science undergrad at UIET, Panjab University.
+              I&#39;m a passionate software engineer dedicated to crafting innovative solutions that push boundaries and drive impactful change.
               My career objective is to use my skills and knowledge to the create innovative and user-friendly digital solutions.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-              "Driven by curiosity, fueled by passion, and guided by expertise, a software engineer dedicated to crafting innovative solutions."
+            &#x201C;Driven by curiosity, fueled by passion, and guided by expertise, a software engineer dedicated to crafting innovative solutions.&#x201C;
               {/* that shape the future of technology." */}
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
@@ -65,7 +65,7 @@ const AboutPage = () => {
                   strokeWidth="2"
                 />
               </svg> */}
-              <Image src="/bio-logo.svg" width={200} height={200} />
+              <Image src="/bio-logo.svg" alt="" width={200} height={200} />
             </div>
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
