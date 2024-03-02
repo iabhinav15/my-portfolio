@@ -4,7 +4,7 @@ import Lottie from "lottie-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
-import anime from "/public/anime7.json";
+import anime from "../../../public/Anime7.json";
 import connectU from "../../../public/project-1.png";
 import portfolio from "../../../public/portfolio.jpg";
 import blogapp from "../../../public/blogapp.jpg";
