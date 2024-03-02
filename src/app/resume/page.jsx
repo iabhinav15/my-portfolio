@@ -7,7 +7,7 @@ const Resume = () => {
       <object className="rounded-t-[10px]  "
         data="/Abhinav_Singh_Resume.pdf"
         width="830"
-        height={window.innerHeight - 100}
+        height="647"
       ></object>
     </div>
   );
